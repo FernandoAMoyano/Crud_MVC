@@ -15,6 +15,7 @@
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5006",
       "environmentVariables": {
+        "ConnectionStrings__ConexionSql": "Server=(localdb)\\mssqllocaldb;Database=CrudMVC;Trusted_Connection=True;MultipleActiveResultSets=true",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
@@ -22,6 +23,7 @@
       "commandName": "IISExpress",
       "launchBrowser": true,
       "environmentVariables": {
+        "ConnectionStrings__ConexionSql": "Server=(localdb)\\mssqllocaldb;Database=CrudMVC;Trusted_Connection=True;MultipleActiveResultSets=true",
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     }
